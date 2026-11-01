@@ -1,5 +1,5 @@
 /* Offline support: serve the cached app instantly, refresh it in the background. */
-const CACHE = 'adb-lineup-20261101-0852';
+const CACHE = 'adb-lineup-20261101-0908';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png',
   './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/apple-touch-icon.png'];
 self.addEventListener('install', e => {

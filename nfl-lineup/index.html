@@ -117,10 +117,12 @@ textarea{width:100%;min-height:110px;background:var(--bg);border:1px solid var(-
 .vsrow .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .vsrow .mid{text-align:center;font-weight:750}
 .lock{font-size:11px;margin-left:4px}
+.logo{width:28px;height:28px;border-radius:8px;flex:none;box-shadow:0 0 0 1px rgba(255,255,255,.08)}
+
 </style>
 </head>
 <body>
-<div class="top"><span class="puck" style="background:radial-gradient(circle at 35% 30%,#7a4a2a,#3a2010 70%);box-shadow:0 0 0 2px #e3915d inset"></span><b id="title">Start/Sit · Sleeper</b>
+<div class="top"><img class="logo" src="../nhl-lineup/icons/icon-192.png" alt=""><b id="title">Start/Sit · Sleeper</b>
   <span class="pill" id="live">loading</span>
   <button class="ic" id="refresh" title="Refresh">↻</button>
   <button class="ic" id="tools" title="Your other tools">☰</button></div>
@@ -144,7 +146,7 @@ textarea{width:100%;min-height:110px;background:var(--bg);border:1px solid var(-
 
 <script>
 const CFG={leagueId:'1385660484409106432', username:'LegionOf12'};
-const BUILD='20261101-0853';
+const BUILD='20261101-0908';
 /* Per-player priors from 2025 game logs.
    s = sacks taken per pass attempt (shrunk to league mean)
    d = deep-completion multiplier (40+ yd completions vs league rate)
